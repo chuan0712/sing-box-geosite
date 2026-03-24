@@ -1,1 +1,1 @@
-https://static-file-global.353355.xyz/rules/cn-additional-list-clash-classical.yaml|cn
+https://static-file-global.353355.xyz/rules/cn-additional-list-clash-classical.yaml|geosite-cn
