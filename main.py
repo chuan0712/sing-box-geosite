@@ -187,9 +187,11 @@ for l in links_raw:
 output_dir = "./"
 result_file_names = []
 
-output_dir = "./rule" # 修改为 rule 目录
+output_dir = "./rule"
+
+# 关键：强制创建目录，exist_ok=True 表示如果目录已存在也不报错
 if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
+    os.makedirs(output_dir, exist_ok=True)
 
 result_file_names = []
 
